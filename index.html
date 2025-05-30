@@ -467,10 +467,13 @@
         window.voiceflow.chat.load({
           verify: { projectID: '6839cebd3b880888a81e0eeb' },
           url: 'https://general-runtime.voiceflow.com',
-          versionID: 'production'
+          versionID: 'production',
+          voice: {
+            url: "https://runtime-api.voiceflow.com"
+          }
         });
       }
-      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+      v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
   })(document, 'script');
 </script>
    
