@@ -49,4 +49,10 @@
           ]
         ]
       },
-      "properti
+      "properties": {
+        "name": "Santiago",
+        "iso_a2": "DO"
+      }
+    }
+  ]
+}
